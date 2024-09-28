@@ -6,8 +6,8 @@ import java.util.ArrayList;
 public class MusicOrganizer {
 
     // Deklaration & Initialisierung der neuen ArrayList "library".
-    ArrayList<MusicTrack> library = new ArrayList<>();
-    String name;
+    private ArrayList<MusicTrack> library = new ArrayList<>();
+    private String name;
 
     // Konstruktor für MusicOrganizer-Objekte:
     public MusicOrganizer(String name) {
@@ -23,7 +23,7 @@ public class MusicOrganizer {
     public void printLibrary() {
         System.out.println("- - - - - - - - - Deine Musikbibliothek: "+name+" - - - - - - - - - - -");
         for (MusicTrack track : library) {
-            System.out.println(track.title+"\nArtist: "+track.artist+"\nGenre: "+track.genre+"\nFilename: "+track.filename+"\n");
+            System.out.println(track.getTitle()+"\nArtist: "+track.getArtist()+"\nGenre: "+track.getGenre()+"\nFilename: "+track.getFilename()+"\n");
         }
     }
 
@@ -32,8 +32,8 @@ public class MusicOrganizer {
         boolean found = false;
         System.out.println("- - - - - - - - - - - Search Results for genre '"+genre+"' - - - - - - - - - -");
         for (MusicTrack track : library) {
-            if (track.genre.equalsIgnoreCase(genre)) {
-                System.out.println("'"+track.title+"'"+" by "+track.artist);
+            if (track.getGenre().equalsIgnoreCase(genre)) {
+                System.out.println("'"+track.getTitle()+"'"+" by "+track.getArtist());
                 found = true;
             }
         }
@@ -48,8 +48,8 @@ public class MusicOrganizer {
         boolean found = false;
         for (MusicTrack track : library) {
             if (found == false) {
-                if (track.title.equalsIgnoreCase(title)) {
-                    System.out.println("'" + track.title + "'" + " by " + track.artist + " is saved as file: '" + track.filename + "'");
+                if (track.getTitle().equalsIgnoreCase(title)) {
+                    System.out.println("'" + track.getTitle() + "'" + " by " + track.getArtist() + " is saved as file: '" + track.getFilename() + "'");
                     found = true;
                 }
             }
@@ -65,7 +65,7 @@ public class MusicOrganizer {
         int counter = 0;
         ArrayList<MusicTrack> removedTracks = new ArrayList<>();
         for (MusicTrack track : toProcess) {
-            if (track.genre.equalsIgnoreCase(genre)) {
+            if (track.getGenre().equalsIgnoreCase(genre)) {
                 removedTracks.add(track);
                 library.remove(track);
                 counter++;
@@ -74,7 +74,7 @@ public class MusicOrganizer {
         // System zur Ausgabe der gelöschten Tracks:
         System.out.print(counter+" tracks :");
         for (int i = 0; i < removedTracks.size(); i++) {
-            System.out.print(" '"+removedTracks.get(i).title+"' by "+removedTracks.get(i).artist);
+            System.out.print(" '"+removedTracks.get(i).getTitle()+"' by "+removedTracks.get(i).getArtist());
             if (i < removedTracks.size() - 1) {
                 System.out.print(", ");
             }
@@ -96,7 +96,7 @@ public class MusicOrganizer {
         ArrayList<MusicTrack> toProcess = new ArrayList<>();
         toProcess.addAll(library);
         for (MusicTrack track : toProcess) {
-            if (track.title.equalsIgnoreCase(title)) {
+            if (track.getTitle().equalsIgnoreCase(title)) {
                 library.remove(track);
                 found = true;
             }

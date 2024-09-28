@@ -13,7 +13,7 @@ public class Main {
         filename = WhatIveDone.getFilename();
         System.out.println(filename);
 
-        MusicOrganizer organizer = new MusicOrganizer("Uni");
+        MusicOrganizer organizer = new MusicOrganizer("Homelist");
         organizer.addTrack(WhatIveDone);
         organizer.addTrack(LetMeEntertainYou);
         organizer.addTrack(SuperNakler);

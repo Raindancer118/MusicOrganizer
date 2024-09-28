@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edadf60c-cdcc-40fb-a1a1-c6e5f11a839f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MusicOrganizer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MusicOrganizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MusicTrack.java" afterDir="false" />
+    <list default="true" id="edadf60c-cdcc-40fb-a1a1-c6e5f11a839f" name="Changes" comment="MusicOrganizer">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MusicOrganizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MusicOrganizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MusicTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MusicTrack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +18,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Raindancer118&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Raindancer118/MusicOrganizer&quot;,
+    &quot;accountId&quot;: &quot;48777a1e-517d-4b73-b06c-17d81d3ee06c&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -45,7 +52,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/tom56/IdeaProjects/MusicOrganizer/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -85,12 +92,44 @@
       <workItem from="1726234048216" duration="116000" />
       <workItem from="1726234184235" duration="80000" />
       <workItem from="1726234273654" duration="445000" />
-      <workItem from="1726234740831" duration="2150000" />
+      <workItem from="1726234740831" duration="3589000" />
+      <workItem from="1726328601903" duration="389000" />
+      <workItem from="1726644806691" duration="70000" />
+      <workItem from="1726644947694" duration="560000" />
+      <workItem from="1727445906057" duration="586000" />
+      <workItem from="1727454342698" duration="1032000" />
+      <workItem from="1727528894089" duration="132000" />
+      <workItem from="1727529256935" duration="628000" />
+      <workItem from="1727543172251" duration="11000" />
     </task>
+    <task id="LOCAL-00001" summary="MusicOrganizer">
+      <option name="closed" value="true" />
+      <created>1726237095863</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726237095863</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MusicOrganizer" />
+    <option name="LAST_COMMIT_MESSAGE" value="MusicOrganizer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

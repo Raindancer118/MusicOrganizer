@@ -1,9 +1,9 @@
 public class MusicTrack {
 
-    String title;
-    String artist;
-    String genre;
-    String filename;
+    private String title;
+    private String artist;
+    private String genre;
+    private String filename;
     public MusicTrack(String title, String artist, String genre, String filename) {
         this.title = title;
         this.artist = artist;
