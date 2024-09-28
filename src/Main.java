@@ -9,6 +9,7 @@ public class Main {
         MusicTrack SuperNakler2 = new MusicTrack("Supernakler","E1mo","Beat","supernakler.mp3");
         MusicTrack SuperNakler3 = new MusicTrack("Supernakler","E1mo","Beat","supernakler.mp3");
         MusicTrack SuperNakler4 = new MusicTrack("Supernakler","E1mo","Beat","supernakler.mp3");
+        MusicTrack HowYouDoin = new MusicTrack("How you doin'","Meee","Beat","howyoudoin.mp3");
         String filename;
         filename = WhatIveDone.getFilename();
         System.out.println(filename);
@@ -17,6 +18,11 @@ public class Main {
         organizer.addTrack(WhatIveDone);
         organizer.addTrack(LetMeEntertainYou);
         organizer.addTrack(SuperNakler);
+        organizer.addTrack(SuperNakler1);
+        organizer.addTrack(SuperNakler2);
+        organizer.addTrack(SuperNakler3);
+        organizer.addTrack(SuperNakler4);
+        organizer.addTrack(HowYouDoin);
         organizer.printLibrary();
         organizer.searchGenre("Rock");
         organizer.searchGenre("Soul");
